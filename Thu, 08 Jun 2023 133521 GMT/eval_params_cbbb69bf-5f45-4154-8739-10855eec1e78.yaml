@@ -1,0 +1,29 @@
+---
+AWS_REGION: "us-east-1"
+ROBOMAKER_SIMULATION_JOB_ACCOUNT_ID: "372026249783"
+JOB_TYPE: "EVALUATION"
+WORLD_NAME: "thunder_hill_pro"
+TRACK_DIRECTION_CLOCKWISE: "true"
+MODEL_METADATA_FILE_S3_KEY: "data-ba0b8f8d-9524-4cd5-b80e-c04236736e1e/models/4b8d7a45-81dc-416b-801a-575bf18c9e18/sagemaker-robomaker-artifacts/model/model_metadata.json"
+MODEL_S3_BUCKET: "aws-deepracer-data-us-east-1-1"
+MODEL_S3_PREFIX: "data-ba0b8f8d-9524-4cd5-b80e-c04236736e1e/models/4b8d7a45-81dc-416b-801a-575bf18c9e18/sagemaker-robomaker-artifacts/"
+METRICS_S3_BUCKET: "aws-deepracer-data-us-east-1-1"
+METRICS_S3_OBJECT_KEY: "leaderboard/global/968ef096-6564-4eac-a7ea-a555a011bbd9/metrics/evaluation-20230602084952-MF1RaPeMQZ6GLp7omgRLXw.json"
+MP4_S3_BUCKET: "aws-deepracer-data-us-east-1-1"
+MP4_S3_OBJECT_PREFIX: "leaderboard/global/968ef096-6564-4eac-a7ea-a555a011bbd9/videos/evaluation-20230602084952-MF1RaPeMQZ6GLp7omgRLXw/"
+SIMTRACE_S3_BUCKET: "aws-deepracer-data-us-east-1-1"
+SIMTRACE_S3_PREFIX: "leaderboard/global/968ef096-6564-4eac-a7ea-a555a011bbd9/sim-trace/evaluation-20230602084952-MF1RaPeMQZ6GLp7omgRLXw/"
+S3_KMS_CMK_ARN: "arn:aws:kms:us-east-1:372026249783:key/8c30cf21-c635-4bb2-a18e-38ea9c04331f"
+NUMBER_OF_TRIALS: 3
+KINESIS_VIDEO_STREAM_NAME: "dr-kvs-372026249783-20230602084951-67fb6b60-6df3-4beb-8030-bfc8666ff37b"
+VIDEO_JOB_TYPE: "RACING"
+MODEL_NAME: "bbb-ver5"
+RACER_NAME: "IterableFormula#6050"
+LEADERBOARD_TYPE: "LEAGUE"
+LEADERBOARD_NAME: "June 2023 Qualifier"
+IS_CONTINUOUS: true
+NUMBER_OF_RESETS: 10000
+PENALTY_SECONDS: 5
+COLLISION_PENALTY: 5.0
+OFF_TRACK_PENALTY: 3.0
+RACE_TYPE: "TIME_TRIAL"
